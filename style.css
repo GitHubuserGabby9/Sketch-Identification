@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(8, 190, 190);
+}
+
+h1 {
+    color: whitesmoke;
+    background-color: #03c7c4;
+
+}
+
+#label {
+    color: white;
+}
+
+#confidence {
+    color: whitesmoke;
+}
+
+#show_sketch {
+    float: right;
+}
+
+canvas {
+    border: 5px solid whitesmoke;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {
+        box-shadow: 1px 1px 38px rgb(201, 199, 199);
+    }
+
+    to {
+        box-shadow: 10px 10px 40px white;
+    }
+}
+
+p {
+    padding-top: 10px;
+    font-size: 25px;
+}
